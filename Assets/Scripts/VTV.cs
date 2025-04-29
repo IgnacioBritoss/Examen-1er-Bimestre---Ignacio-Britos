@@ -10,10 +10,10 @@ public class VTV : MonoBehaviour
     public float kilometrosRecorridos; 
     public int vencimientoVTV; 
     public float hcPPM; 
+    int anioActual = 2025;
 
-    int anioActual = 2025; 
-
-    void Start()
+    // Start is called before the first frame update
+   void Start()
     {
        
         if (patente == "")
